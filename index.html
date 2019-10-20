@@ -1,4 +1,61 @@
+
 <html>
-  <head></head>
-  <body><h1> My Web Page </h1></body>
-</html>
+  <head> <title><b>Homepage</b></title>
+      <link rel="stylesheet" href="style.css">
+     
+  
+  
+  </head>
+  <body>
+      
+  <h1 class= "main">
+  <strong><em>VersaTech</em></strong>
+  </h1>
+  
+  <a class = 'links' href = "https://akram432.github.io/VT2900/product.html "  >  <b>Product</b> </a>
+  <a class = 'links'href = "https://akram432.github.io/VT2900/about.html " style = 'left: 110px;' >   <b>Prices</b></a>
+  <a class = 'links'href=  href = "https://akram432.github.io/VT2900/contact.html " style = 'left: 195px;' >  <b>Contact us</b> </a>
+  
+  <div class="slidecontainer">
+  
+      <div class="sd fade">
+        <img src="pics//1.jpg" alt = 'glasses' style="width:100%">
+      </div>
+      
+      <div class="sd fade">
+        <img src="pics//2.jpg" style="width:100%" alt = 'glasses'>
+      </div>
+      
+      <div class="sd fade">
+        <img src="pics//3.jpg" style="width:100%" alt = 'glasses'>
+      </div>
+  
+      <div class="sd fade">
+          <img src="pics//4.jpg" style="width:100%" alt = 'glasses'>
+      </div>
+  
+      <div class="sd fade">
+      <img src="pics//5.jpg" style="width:100%" alt = 'glasses'>
+      </div>
+      </div>
+     
+      <script>
+      var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("sd");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+  }
+      </script>
+  
+  
+  </body>
+  </html>
