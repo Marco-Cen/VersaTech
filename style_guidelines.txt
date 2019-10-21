@@ -1,0 +1,37 @@
+====================================
+Overall look and feel of "VersaTech"
+====================================
+The website as a whole will be minimalistic, simple and visually pleasing to the users, avoiding sharp edges from shapes and in the overall design.
+
+=======
+Colours
+=======
+At VersaTech, we plan to set the theme with our colour variation, presenting a very calm and soothing vibe to our customers.
+The following are the list of colours that will represent VersaTech on its website:
+
+- #AB7AFF
+- #9CC8FF
+- #D1FBFF
+- #FFDCA8
+
+===========
+Iconography
+===========
+The iconography for VersaTech will focus on icons with a smooth rounded edge design, which would go well with the overall theme.
+
+==========
+Typography
+==========
+The fonts representing VersaTech will be from Google Fonts, namely:
+- Sans-serif
+- Helvetica
+
+=====
+Links
+=====
+Links will look subtle, change colour when the user hovers over it and will not be underlined.
+
+=======
+Buttons
+=======
+The buttons will be flat with rounded edges and with the colour scheme mentioned above.
