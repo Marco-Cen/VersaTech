@@ -1,7 +1,7 @@
 
 h1.main{
 position: absolute;
-top:10;
+top:-50;
 width: 100%;
 text-align: center;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -62,16 +62,19 @@ left: 380px;
     to {opacity: 1}
   }
   
-numberlist{
+.numberlist{
 font-size: 20px;
 color: red;
 }
-*
-{
-    margin: 0;
-    padding: 0;
+.vertical{
+  position:absolute;
+  left: 750px;
+  top: 100px;
+  border-left: 6px solid green;
+  height: 500px;
 }
-header
+
+
 
 
 
