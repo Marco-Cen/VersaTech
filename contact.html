@@ -1,8 +1,56 @@
 <html>
-<header><title>CONTACT US!</title></header>
-<body>
-  <h1>
-Meet the VersaTech Team  
-  </h1>
-  </body>
+    <head>
+       <title> Contact Page</title>
+       <link rel="stylesheet" type ="text/css" href="contactstyle.css">
+
+    </head>
+
+
+    <body>
+        <h1> <center> CONTACT US! </center> </h1> 
+        <h2> <center> Meet the                                                                         Team </center> </h2>
+
+        <div class= "contact-page"> <!-- VersaTech picture -->
+            <img src= "assets/VersaTech.png" alt="VersaTech" style= 
+            "display: block; margin-left: auto; margin-right: auto;">
+
+            <div class= "center-glass"> <em> <b>Versa       Tech </b></em> </div>
+
+        </div>
+
+        <div class= "contact"> <!-- Social Media Contact -->
+                <img src= "assets/background.jpg" alt= "Background" style= "width: 100%;">
+                <img src= "assets/location.png" alt= "Location Icon" style= "position: absolute; TOP: 100px; LEFT: 250px; width: 50; height: 50;">
+                <a href= "https://www.google.com/maps/place/University+of+Ottawa/@45.4229962,-75.6856158,16.73z/data=!4m5!3m4!1s0x4cce050a6db98d73:0x188a59c3622fdbae!8m2!3d45.4231064!4d-75.6831329" 
+                style= "position: absolute; TOP: 115px; LEFT: 360px;"> Our Office </a>
+                <img src= "assets/phone.jpg" alt= "Phone Icon" style= "position: absolute; TOP: 210px; LEFT: 250px; width: 50; height: 50;">
+                <a href= "tel:6479373188" style= "position: absolute; TOP: 220px; LEFT: 360px;"> Call us: 647-937-3188 </a>
+                <img src= "assets/mail.png" alt= "Mail Icon" style= "position: absolute; TOP:320px; LEFT: 250px; width: 70; height: 70;">
+                <a href= "mailto: VersaTech@SEG2900.com" style= "position: absolute; TOP: 340px; LEFT: 360px;"> Email us: VersaTech@SEG2900.com </a>
+    
+        </div>
+
+        <div class="line">&nbsp;</div> <!-- Vertical line -->
+
+        <div class= "forum"> <!-- User input box -->
+                <h3> <b>Stay Connected:</b> </h3>
+                <form action= "action_page.php">
+    
+                    <label for= "fullname" > Full Name </label>
+                    <input type= "text" id= "fullname" name= "fullname" placeholder= "Your full name...">
+    
+                    <label for= "email"> Email </label>
+                    <input type= "text" id= "email" name= "email" placeholder="Your email...">
+    
+                    <label for= "help"> Questions? Comments? Concerns? </label>
+                    <textarea id= "help" name= "help" placeholder = "Have a question? Need help? Let us know your thoughts!"
+                    style = "height:200px"></textarea>
+    
+                    <input type = "submit" value = "Submit">
+    
+                </form>
+        </div>
+        
+
+    </body>
 </html>
