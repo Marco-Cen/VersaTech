@@ -1,0 +1,73 @@
+body {
+
+}
+
+h1{
+    text-decoration: underline overline;
+    margin-bottom: 30px;
+    color: blueviolet;
+}
+
+h2{   /* 'Meet the team' text */
+    position: absolute;  /*Need position and text-align in order to move text */
+    text-align: center;
+    top: 40;
+    left: 450px;
+    white-space: pre; /* Allows for spacing in between text */
+    color: purple;
+}
+
+h3{
+    position: absolute; /* image will go exactly where I say it will */
+    text-align: center;
+    right:250px;
+    font-size: 25px;
+    top: -75px;
+    font-family: 'Arial Narrow Bold', sans-serif
+    
+}
+
+.contact-page{   /* Picture of glasses */
+    position: relative;
+    text-align: center;
+}
+
+.center-glass{  /* Inside glasses text */
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 555px;
+    font-size: 55px;
+    white-space: pre;
+    color: purple;
+}
+
+.forum{  /* User input box */
+    position: absolute;
+    top: 300px;
+    left: 850px;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+width: 100%; 
+padding: 12px; /* Thickness of input box */ 
+border-radius: 4px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 10px; /* Spacing at top before input box */
+margin-bottom: 20px; /* Spacing at bottom after input box */
+ }
+
+ .contact{
+    position: relative;
+ }
+
+ .line {
+    widows: 5px;
+    background-color:#000;
+    position:absolute;
+    top:300px;
+    bottom:0;
+    left:763px;
+}
