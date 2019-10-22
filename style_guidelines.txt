@@ -17,7 +17,7 @@ The following are the list of colours that will represent VersaTech on its websi
 ===========
 Iconography
 ===========
-The iconography for VersaTech will focus on icons with a smooth rounded edge design, which would go well with the overall theme.
+The iconography for VersaTech will focus on icons with a smooth flat rounded edge design, which would go well with the overall theme.
 
 ==========
 Typography
@@ -29,7 +29,7 @@ The fonts representing VersaTech will be from Google Fonts, namely:
 =====
 Links
 =====
-Links will look subtle, change colour when the user hovers over it and will not be underlined.
+Links will look subtle and not bold, change colour when the user hovers over it and will not be underlined.
 
 =======
 Buttons
