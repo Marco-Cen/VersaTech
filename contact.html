@@ -2,49 +2,51 @@
     <head>
        <title> Contact Page</title>
        <link rel="stylesheet" type ="text/css" href="contactstyle.css">
-
+       <link href="https://fonts.googleapis.com/css?family=Muli|Raleway&display=swap" rel="stylesheet">
     </head>
 
 
     <body>
-           
-        <a class = 'links' href = "https://akram432.github.io/VT2900/index.html"  >  <b>Home</b> </a>
-        <a class = 'links' href = "https://akram432.github.io/VT2900/product.html"  >  <b>Product</b> </a>
-        <a class = 'links'href = "https://akram432.github.io/VT2900/pricing.html" style = 'left: 110px;' >   <b>Prices</b></a>
-        
-        <h1> <center> CONTACT US! </center> </h1> 
-        <h2> <center> Meet the                                                                         Team </center> </h2>
-
-        <div class= "contact-page"> <!-- VersaTech picture -->
-            <img src= "assets/VersaTech.png" alt="VersaTech" style= 
-            "display: block; margin-left: auto; margin-right: auto;">
-
-            <div class= "center-glass"> <em> <b>Versa       Tech </b></em> </div>
-
+        <!-- Parallax scrolling (1st Pic) -->
+       <div class = "parallax">
+            <h1> <strong>  CONTACT US! </strong> </h1>
+            <div class = "intro">
+                <h2> Meet the                                             Team </h2>
+                <img src= "assets/VersaTech.png" alt="VersaTech" style= "width: 400;">  <!-- 'width = " changes size of picture-->
+            </div>
         </div>
 
-        <div class= "contact"> <!-- Social Media Contact -->
-                <img src= "assets/background.jpg" alt= "Background" style= "width: 100%;">
-                <img src= "assets/location.png" alt= "Location Icon" style= "position: absolute; TOP: 50px; LEFT: 144px; width: 70; height: 70;">
-                <div class="mapouter">
-                        <div class="gmap_canvas">
-                            <iframe width="485" height="251" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20ottawa&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                            <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">embedgooglemap.net</a>
-                        </div>
-                        <style>.mapouter{position: absolute; TOP: 50px; LEFT: 250px;text-align:right;height:251px;width:485px;}.gmap_canvas {overflow:hidden;background:none!important;height:251px;width:485px;}</style>
+        <!-- Parallax scrolling (2nd Pic) -->
+        <div class = "parallax2"> 
+
+            <!-- Problems: !!!!!!!!!!!!!!!!!!!!
+            - Fix alignment of social media contact
+            
+            -->
+
+            <!-- Social Media Contact -->
+            <div class= "contactInfo"> 
+                    <img src= "assets/location.png" alt= "Location Icon" style= "width: 70; TOP: 50px; LEFT: 144px;">
+                    <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe width="485" height="251" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20ottawa&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">embedgooglemap.net</a>
+                            </div>
+                            <style>.mapouter{height:251px;width:485px;}.gmap_canvas {overflow:hidden;background:none!important;height:251px;width:485px;}</style>
                     </div>
-                <img src= "assets/phone.jpg" alt= "Phone Icon" style= "position: absolute; TOP: 430px; LEFT: 160px; width: 45; height: 45;">
-                <a href= "tel:6479373188" style= "position: absolute; TOP: 450px; LEFT: 250px;"> Call us: 647-937-3188 </a>
-                <img src= "assets/mail.png" alt= "Mail Icon" style= "position: absolute; TOP:330px; LEFT: 140px; width: 80; height: 80;">
-                <a href= "mailto: VersaTech@SEG2900.com" style= "position: absolute; TOP: 360px; LEFT: 250px;"> Email us: VersaTech@SEG2900.com </a>
-    
-        </div>
+                    <img src= "assets/phone.jpg" alt= "Phone Icon" style= "width: 45; TOP: 430px; LEFT: 160px;">
+                    <img src= "assets/mail.png" alt= "Mail Icon" style= "width: 80; TOP:330px; LEFT: 140px;">
+                    <a href= "tel:6479373188" style= "TOP: 450px; LEFT: 250px;"> Call us: 647-937-3188 </a>
+                    <a href= "mailto: VersaTech@SEG2900.com" style= "TOP: 360px; LEFT: 250px;"> Email us: VersaTech@SEG2900.com </a>
+            </div>
 
+            <!-- BROKEN!!!!!!!!!!!!!!!!!!! -->
+            <div class="line">&nbsp;</div> <!-- Vertical line -->
 
-        <div class="line">&nbsp;</div> <!-- Vertical line -->
-
-        <div class= "forum"> <!-- User input box -->
-                <h3> <b>Stay Connected:</b> </h3>
+            <!-- BROKEN!!!!!!!!!!!!!!!!!!! -->
+            <!-- User input box -->
+            <div class= "forum"> 
+                <h3> <b>Stay Connected:</b> </h3>  <!-- Change to animation!!!!!!!!!!-->
                 <form action= "action_page.php">
     
                     <label for= "fullname" > Full Name </label>
@@ -60,8 +62,15 @@
                     <input type = "submit" value = "Submit">
     
                 </form>
+            </div>
+
+
         </div>
-        
+
+
 
     </body>
+
+
+
 </html>

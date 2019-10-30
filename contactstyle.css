@@ -1,73 +1,127 @@
-body {
+/*
+    <div class = "background"> <!-- Background picture -->
+        <img src= "assets/background.jpg" alt= "Background" style= "width: 100%;">
+    </div>
+*/
 
+
+/* To do:
+- change VersaTech logo text
+- change fonts
+- convert into contact.html (Make sure directory to images matches. and images updared)
+- change colour scheme
+
+*/
+
+/* for background pic */
+body, html { 
+    /* Fonts */
+    font-family: 'Muli', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+    height: 100%; /* Full height */
+    width: 100%; /* Full Size */
+
+    margin: 0px; /* Space outside of something */
+    padding: 0px; /* Space inside something */
+    overflow-x: hidden; /* Removed prob with 'social media contact' that added white space to right of parallax scroll */
 }
 
-h1{
+/* Allow for scrolling in web site with background content stationary. At top to ensure first layer of website */
+.parallax {
+    background-image: url("assets/bkg.jpg");
+    height: 100%; /* To ensure bkg pic covers entire page */
+  
+/* Scrolling effect for 1st bkg */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ /* Contact us */
+h1{ 
+    position: relative; /* Position relative to size of window */
+    top: 15%; /*From top to bottom adjust size accordingly */
     text-decoration: underline overline;
-    margin-bottom: 30px;
     color: blueviolet;
+
+    /* Supposedly adjust for new window size.. Unsure if works!!! */
+    max-width: 100%; 
+    width: auto\9;
+    max-height: 99vh;
+
+    font-size: 3vw;
 }
 
-h2{   /* 'Meet the team' text */
-    position: absolute;  /*Need position and text-align in order to move text */
-    text-align: center;
-    top: 40;
-    left: 450px;
+/* 'Meet the team' text */
+h2{ 
     white-space: pre; /* Allows for spacing in between text */
     color: purple;
+    font-size: 2vw;
 }
 
-h3{
-    position: absolute; /* image will go exactly where I say it will */
-    text-align: center;
-    right:250px;
-    font-size: 25px;
-    top: -58px;
-    font-family: 'Arial Narrow Bold', sans-serif
-    
-}
-
-.contact-page{   /* Picture of glasses */
+/* VersaTech Logo and meet the team text */
+.intro{   
     position: relative;
     text-align: center;
+    top: 13%;
 }
 
-.center-glass{  /* Inside glasses text */
-    position: absolute;
-    text-align: center;
-    top: 40px;
-    left: 555px;
-    font-size: 55px;
-    white-space: pre;
-    color: purple;
+.parallax2 {
+    background-image: url("assets/background.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* To ensure parallax pic adjusts accordingly to window size */
+        /* To make images flexible */
+    /* height: auto;  Adjust size of bkg pic of parallax to fit with last object on pic that takes up vertical spacing at bottom */
+    max-width: 100%; /* Image will scale down if needed, but never scale up */
+    width: auto\9; /* Both codes above work in IE7, but not IE8 (is bug) so need this code for IE8 to fix issue */
 }
 
-.forum{  /* User input box */
-    position: absolute;
-    top: 300px;
-    left: 850px;
+/* All of VersaTech info */
+.contactInfo{ 
+    position: relative;
+    text-align: left;
+    top: 5%;
+    left: 10%;
 
+
+
+    /* Supposedly adjust for new window size.. Unsure if works!!! */
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    max-height: 99vh;
+
+    font-size: 2vw; /* For resizing fonts accordingly to window size */
+ }
+
+.line {
+    widows: 5px;
+    background-color:#000;
+    position:relative;
+    top:300px;
+    bottom:0;
+    left:763px;
+}
+
+/* User input Box */
+.forum{
+    position: relative;
+    
 }
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], textarea {
-width: 100%; 
-padding: 12px; /* Thickness of input box */ 
-border-radius: 4px; /* Rounded borders */
-box-sizing: border-box; /* Make sure that padding and width stays in place */
-margin-top: 10px; /* Spacing at top before input box */
-margin-bottom: 20px; /* Spacing at bottom after input box */
- }
-
- .contact{
-    position: relative;
- }
-
- .line {
-    widows: 5px;
-    background-color:#000;
-    position:absolute;
-    top:300px;
-    bottom:0;
-    left:763px;
+    width: 100%; 
+    padding: 12px; /* Thickness of input box */ 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 10px; /* Spacing at top before input box */
+    margin-bottom: 20px; /* Spacing at bottom after input box */
 }
