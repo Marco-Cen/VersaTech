@@ -1,0 +1,23 @@
+<div class="slidecontainer">
+  
+      <div class="sd fade">
+        <img src="pics//1.jpg" alt = 'glasses' style="width:100%">
+      </div>
+      
+      <div class="sd fade">
+        <img src="pics//2.jpg" style="width:100%" alt = 'glasses'>
+      </div>
+      
+      <div class="sd fade">
+        <img src="pics//3.jpg" style="width:100%" alt = 'glasses'>
+      </div>
+  
+      <div class="sd fade">
+          <img src="pics//4.jpg" style="width:100%" alt = 'glasses'>
+      </div>
+  
+      <div class="sd fade">
+      <img src="pics//5.jpg" style="width:100%" alt = 'glasses'>
+      </div>
+      </div>
+      <a class = "buy" href ="https://akram432.github.io/VT2900/pricing.html"> <b>BUY NOW!</b></a>
