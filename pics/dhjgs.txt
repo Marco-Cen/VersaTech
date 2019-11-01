@@ -1,4 +1,4 @@
-<div class="slidecontainer">
+      <div class="slidecontainer">
   
       <div class="sd fade">
         <img src="pics//1.jpg" alt = 'glasses' style="width:100%">
@@ -20,4 +20,16 @@
       <img src="pics//5.jpg" style="width:100%" alt = 'glasses'>
       </div>
       </div>
-      <a class = "buy" href ="https://akram432.github.io/VT2900/pricing.html"> <b>BUY NOW!</b></a>
+      
+
+<a class = "buy" href ="https://akram432.github.io/VT2900/pricing.html"> <b>BUY NOW!</b></a>
+
+
+<img src="pics//fjhd.png" alt ="mainPic"  style= "
+  width:60%;
+  height:50%;
+  position: absolute;
+  left:22%;
+  top:25%;
+  transform: rotate(15deg);
+  "
