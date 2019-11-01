@@ -6,8 +6,6 @@
 
 
 /* To do:
-- change VersaTech logo text
-- change fonts
 - convert into contact.html (Make sure directory to images matches. and images updared)
 - change colour scheme
 
@@ -16,7 +14,6 @@
 /* for background pic */
 body, html { 
     /* Fonts */
-    font-family: 'Muli', sans-serif;
     font-family: 'Raleway', sans-serif;
     
     height: 100%; /* Full height */
