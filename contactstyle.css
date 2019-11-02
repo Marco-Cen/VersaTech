@@ -69,11 +69,15 @@ a.buttons{
 
     font-size: 160%;
     color: whitesmoke;
-    position: relative;
+    position: absolute;
     top: 48%; /*From top to bottom adjust size accordingly */
     left:70%;
     text-decoration: none;
 }
+/* PROBLEM:
+- Buttons dont work for fullscreen ONLY
+
+*/
 a:hover{
     background-color: grey;
     }
