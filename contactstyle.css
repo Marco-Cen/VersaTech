@@ -36,19 +36,31 @@ body, html {
     background-size: cover;
 }
 
+/* Main Menu Header */
 .menu{
-    /* Main Menu Header */
-    position: relative
+    position: relative;
     top: 0%;
-    width:100%;
+    width: 100%;
     height:10%;
-    /* color:whitesmoke; */
+    text-align: left;
+    color:whitesmoke;
     background-color: #333;
-    padding:2%;
-    border: 1% solid white;
-    box-shadow: 2% 1% 20% black;
+    padding:25px;
+    border: 1px solid white;
+    box-shadow: 2px 1px 20px black;
 }
 
+/* VT logo top left corner */
+.logo{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0%;
+    width: 20%;
+    }
+
+/* Subheading buttons on menu bar */
 a.buttons{
     /* position: fixed;
     top: 0;
@@ -56,21 +68,10 @@ a.buttons{
 
     font-size: 160%;
     color: whitesmoke;
-    position: relative;
-    top: 8%;
+    position: absolute;
+    top: 47%; /*From top to bottom adjust size accordingly */
     left:70%;
     text-decoration: none;
-    text-align: center;
-
-    /* max-width: 100%;
-    height: 45px;
-    width: 100%;
-    background-color: #111;
-    margin: auto;
-    padding: 0px 0px 0px 0px;
-    position: relative;
-    left: 0;
-    top: 0 */
 }
 a:hover{
     background-color: grey;
@@ -83,8 +84,8 @@ a:hover{
  /* Contact us */
 h1{ 
     position: relative; /* Position relative to size of window */
-    top: 15%; /*From top to bottom adjust size accordingly */
     text-decoration: underline overline;
+    text-align: center;
     color: blueviolet;
 
     /* Supposedly adjust for new window size.. Unsure if works!!! */
@@ -92,7 +93,7 @@ h1{
     width: auto\9;
     max-height: 99vh;
 
-    font-size: 3vw;
+    font-size: 3vw;   
 }
 
 /* 'Meet the team' text */
@@ -131,8 +132,6 @@ h2{
     top: 5%;
     left: 10%;
 
-
-
     /* Supposedly adjust for new window size.. Unsure if works!!! */
     max-width: 100%;
     width: auto\9;
@@ -154,6 +153,7 @@ h2{
 /* User input Box */
 .forum{
     position: relative;
+    color: whitesmoke;
     
 }
 
