@@ -58,6 +58,7 @@ body, html {
     margin-right: auto;
     top: 0%;
     width: 20%;
+    left: 0%;
     }
 
 /* Subheading buttons on menu bar */
@@ -69,7 +70,7 @@ a.buttons{
     font-size: 160%;
     color: whitesmoke;
     position: absolute;
-    top: 47%; /*From top to bottom adjust size accordingly */
+    top: 48%; /*From top to bottom adjust size accordingly */
     left:70%;
     text-decoration: none;
 }
@@ -86,14 +87,15 @@ h1{
     position: relative; /* Position relative to size of window */
     text-decoration: underline overline;
     text-align: center;
-    color: blueviolet;
+    color: burlywood;
+    top: -45%;
 
     /* Supposedly adjust for new window size.. Unsure if works!!! */
     max-width: 100%; 
     width: auto\9;
     max-height: 99vh;
 
-    font-size: 3vw;   
+    font-size: 4vw;   /* Font size */
 }
 
 /* 'Meet the team' text */
@@ -107,7 +109,7 @@ h2{
 .intro{   
     position: relative;
     text-align: center;
-    top: 13%;
+    top: 23%;
 }
 
 .parallax2 {
