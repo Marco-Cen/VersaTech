@@ -93,11 +93,12 @@ h1{
     text-align: center;
     color: burlywood;
     top: -45%;
+    left: 26.5%;
 
     /* Supposedly adjust for new window size.. Unsure if works!!! */
-    max-width: 100%; 
+    max-width: 100vh; /* needed vh for this and height for button to work fullscreen as well */
     width: auto\9;
-    max-height: 99vh;
+    max-height: 100vh; 
 
     font-size: 4vw;   /* Font size */
 }
