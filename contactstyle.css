@@ -83,7 +83,6 @@ a:hover{
     background-color: plum;
     }
 
-
  /* Contact us */
 h1{ 
     position: relative; /* Position relative to size of window */
@@ -101,18 +100,20 @@ h1{
     font-size: 3.5vw;   /* Font size */
 }
 
-/* 'Meet the team' text */
-h2{ 
-    white-space: pre; /* Allows for spacing in between text */
-    color: purple;
-    font-size: 2vw;
-}
-
-/* VersaTech Logo and meet the team text */
-.intro{   
-    position: relative;
+/* For animated rotating text across screen */
+h4{
+    font-size: 5em;
+    font-weight: 200;  /* Transparency (Boldness) */
     text-align: center;
-    top: 23%;
+    margin: 2em 0; /* Moves text vertically */
+    color: black;
+}
+/* Txt under animated rotating text */
+h5{
+    font-size: 1em;
+    text-align: center;
+    margin: -10em 0;
+    color: cornsilk;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -143,12 +144,19 @@ input[type=text], textarea {
 /* All of VersaTech info */
 .contactInfo{ 
     position: relative;
+    font-size: 1vw; /* For resizing fonts accordingly to window size */
     /* Supposedly adjust for new window size.. Unsure if works!!!
     max-width: 100%;
     width: auto\9;
     height: auto;
     max-height: 99vh; */
-    font-size: 1vw; /* For resizing fonts accordingly to window size */
+ }
+
+ /* Our Headquarters */
+ h3{
+    position: relative;
+    left: 19%;
+    top: 5%;
  }
 
 /* 
@@ -161,18 +169,34 @@ input[type=text], textarea {
     left:90%;
 } */
 
-/* User input Box */
+/* User input Box (Stay Connected) */
 .forum{
     position: relative;
     color: black;
     width: 38%;
     text-align: left;
     left: 60%;
-    top: -30%;
+    top: -45%;
 }
 
 .gmap_canvas{
     position:relative;
     left: 28%;
     top: 140%;
+}
+
+
+
+/* 'Meet the team' text */
+h2{ 
+    white-space: pre; /* Allows for spacing in between text */
+    color: purple;
+    font-size: 2vw;
+}
+
+/* VersaTech Logo and meet the team text */
+.intro{   
+    position: relative;
+    text-align: center;
+    top: 23%;
 }
