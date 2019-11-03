@@ -116,15 +116,43 @@ h5{
     color: cornsilk;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], textarea {
-    width: 100%; 
-    padding: 12px; /* Thickness of input box */ 
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 10px; /* Spacing at top before input box */
-    margin-bottom: 20px; /* Spacing at bottom after input box */
+/* Arrow on first parallax */  
+.arrow{
+    position: relative;
+    top: 42%;
+    left: 100%;
+    transform: translate(-50%,-50%);
 }
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+/* End of arrow animation */
 
 .parallax2 {
     background-image: url("assets/background.jpg");
@@ -150,7 +178,7 @@ input[type=text], textarea {
     width: auto\9;
     height: auto;
     max-height: 99vh; */
- }
+}
 
  /* Our Headquarters */
  h3{
@@ -158,6 +186,12 @@ input[type=text], textarea {
     left: 19%;
     top: 5%;
  }
+
+ .gmap_canvas{
+    position:relative;
+    left: 28%;
+    top: 140%;
+}
 
 /* 
 .line {
@@ -179,10 +213,14 @@ input[type=text], textarea {
     top: -45%;
 }
 
-.gmap_canvas{
-    position:relative;
-    left: 28%;
-    top: 140%;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; /* Thickness of input box */ 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 10px; /* Spacing at top before input box */
+    margin-bottom: 20px; /* Spacing at bottom after input box */
 }
 
 
