@@ -1,8 +1,7 @@
 /*Note:
-- No (h3) b/c tried fix 'Stay Connected' spacing under but couldnt 
-
-To do:
 - 
+To do:
+- Formatting issue (resizing according to window/mobile size)
 */
 
 /* for background pic */
@@ -172,8 +171,8 @@ h5{
     max-height: 99vh; */
 }
 
- /* Stay Connected on second page */
- h3{
+/* Stay Connected on second page */
+h3{
     position: relative;
     text-align: center;
     text-decoration: underline;
@@ -181,7 +180,7 @@ h5{
     width: 100%;
  }
 
- .gmap_canvas{
+.gmap_canvas{
     position:relative;
     left: 28%;
     top: 140%;
@@ -222,12 +221,21 @@ input[type=text], textarea {
 }
 
 
+.parallax3 {
+    background-image: url("assets/group.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* 'Meet the team' text */
 h2{ 
     white-space: pre; /* Allows for spacing in between text */
     color: purple;
     font-size: 2vw;
+    display: inline;
 }
 
 /* VersaTech Logo and meet the team text */
