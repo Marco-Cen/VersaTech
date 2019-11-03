@@ -24,22 +24,19 @@ width: 20%;
   height:60%;
   position: absolute;
   left:15%;
-  top:20%;
+  top:30%;
 }
 .slidecontainer{
   width:70%;
   height:60%;
   position: absolute;
   left:15%;
-  top:20%;
+  top:30%;
 }
 .myname{
   position: absolute;
-<<<<<<< HEAD
-  top:0%;
-=======
+
   top: 0%;
->>>>>>> 2f352ac4479931e974a8a8130a5359f9a2526cc8
   left:-3%;
   width:100%;
   height:10%;
