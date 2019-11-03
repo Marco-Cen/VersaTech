@@ -1,14 +1,8 @@
-/*
-    <div class = "background"> <!-- Background picture -->
-        <img src= "assets/background.jpg" alt= "Background" style= "width: 100%;">
-    </div>
-*/
+/*Note:
+- No (h3) b/c tried fix 'Stay Connected' spacing under but couldnt 
 
-
-/* To do:
-- convert into contact.html (Make sure directory to images matches. and images updared)
-- change colour scheme
-
+To do:
+- 
 */
 
 /* for background pic */
@@ -180,12 +174,13 @@ h5{
     max-height: 99vh; */
 }
 
- /* Our Headquarters */
+ /* Stay Connected & VersaTech on second page */
  h3{
     position: relative;
     text-align: center;
     text-decoration: underline;
     font-size: 2em;
+    width: 100%;
  }
 
  .gmap_canvas{
@@ -198,7 +193,7 @@ h5{
     position: relative;
     color: black;
     left: 4.5%;
-    top: -40%;
+    top: -39%;
 } 
 
 /* User input Box (Stay Connected) */
@@ -208,7 +203,7 @@ h5{
     width: 38%;
     text-align: left;
     left: 60%;
-    top: -133%;
+    top: -136%;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -221,7 +216,12 @@ input[type=text], textarea {
     margin-bottom: 20px; /* Spacing at bottom after input box */
 }
 
+.socialMedia{
+    position: relative;
+    top: -130%;
+    left: 63%;
 
+}
 
 
 
