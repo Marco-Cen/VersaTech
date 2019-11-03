@@ -150,7 +150,7 @@ h5{
 /* End of arrow animation */
 
 .parallax2 {
-    background-image: url("assets/background.jpg");
+    background-image: url("assets/bkg9.jpg"); /* bkg9 none (Original: bkg2) */
     height: 100%;
     background-attachment: fixed;
     background-position: center;
