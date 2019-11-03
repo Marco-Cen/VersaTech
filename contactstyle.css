@@ -61,7 +61,7 @@ a.buttons{
     font-size: 160%;
     color: whitesmoke;
     position: absolute;
-    top: 48%; /*From top to bottom adjust size accordingly */
+    top: 40%; /*From top to bottom adjust size accordingly */
     left:70%;
     text-decoration: none;
 }
@@ -89,7 +89,7 @@ h1{
     width: auto\9;
     max-height: 100vh; 
 
-    font-size: 3.5vw;   /* Font size */
+    font-size: 3.7em;   /* Font size (Diff between vw? and em?*/
 }
 
 /* For animated rotating text across screen */
