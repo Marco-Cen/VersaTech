@@ -232,9 +232,13 @@ input[type=text], textarea {
 
 /* 'Meet the team' text */
 h2{ 
-    white-space: pre; /* Allows for spacing in between text */
-    color: purple;
-    font-size: 2vw;
+    position: absolute; /* Need "position" in order to move object properly*/
+    /* white-space: pre; Allows for spacing in between text */
+    font-size: 2em;
+    text-decoration: underline overline;
+    top: -26.5%;
+    left: 28%;
+    color: cornsilk;
     display: inline;
 }
 
@@ -242,5 +246,5 @@ h2{
 .intro{   
     position: relative;
     text-align: center;
-    top: 23%;
+    top: 10%;
 }
