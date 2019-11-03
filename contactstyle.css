@@ -7,8 +7,7 @@ To do:
 
 /* for background pic */
 body, html { 
-    /* Fonts */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif; /* Fonts */
     
     height: 100%; /* Full height */
     width: 100%; /* Full Size */
@@ -66,10 +65,7 @@ a.buttons{
     left:70%;
     text-decoration: none;
 }
-/* PROBLEM:
-- Homepage Button doesnt work for fullscreen ONLY (Some areas of word)
 
-*/
 a:hover{
     background-color: grey;
     }
@@ -83,8 +79,10 @@ h1{
     text-decoration: underline overline;
     text-align: center;
     color: burlywood;
-    top: -40%;
-    left: 26.5%;
+    top: 5%;
+    left: 38%;
+    display: inline; /* So textboxes takes up right amount of space (like word.doc) Fixed half home button working */
+
 
     /* Supposedly adjust for new window size.. Unsure if works!!! */
     max-width: 100vh; /* needed vh for this and height for button to work fullscreen as well */
@@ -174,7 +172,7 @@ h5{
     max-height: 99vh; */
 }
 
- /* Stay Connected & VersaTech on second page */
+ /* Stay Connected on second page */
  h3{
     position: relative;
     text-align: center;
