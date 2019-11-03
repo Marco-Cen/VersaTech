@@ -183,8 +183,9 @@ h5{
  /* Our Headquarters */
  h3{
     position: relative;
-    left: 19%;
-    top: 5%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
  }
 
  .gmap_canvas{
@@ -193,15 +194,12 @@ h5{
     top: 140%;
 }
 
-/* 
 .line {
-    widows: 5px;
-    background-color:#000;
-    position:relative;
-    top:30%;
-    bottom:0;
-    left:90%;
-} */
+    position: relative;
+    color: black;
+    left: 4.5%;
+    top: -40%;
+} 
 
 /* User input Box (Stay Connected) */
 .forum{
@@ -210,7 +208,7 @@ h5{
     width: 38%;
     text-align: left;
     left: 60%;
-    top: -45%;
+    top: -133%;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -222,6 +220,8 @@ input[type=text], textarea {
     margin-top: 10px; /* Spacing at top before input box */
     margin-bottom: 20px; /* Spacing at bottom after input box */
 }
+
+
 
 
 

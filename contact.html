@@ -22,11 +22,11 @@
             <h4>
                 Have a 
                 <span class="txt-rotate"
-                data-period= "1000"
-                data-rotate= '["Question?", "Comment?", "Concern?", "Inquiry?", "Issue?" ]'>
+                data-period= "700"
+                data-rotate= '["Question?", "Concern?", "Thought?", "Problem?", "Comment?" ]'>
                 </span>
             </h4>
-            <h5> We want to hear from you! Ask Away! </h5>
+            <h5> We want to hear from you! Let us know! </h5>
 
             <!-- Down arrow animated -->
             <div class= "arrow">
@@ -34,8 +34,6 @@
                 <span></span>
                 <span></span>     
             </div> 
-
-        
 
         </div>
 
@@ -59,24 +57,27 @@
                     <style>.mapouter{height:280px;width:580px;}.gmap_canvas {overflow:hidden;background:none!important;height:280px;width:580px;}</style>
                 </div>
             </div>
-            <h3><em> Our Headquarters: </em></h3>
+            <p style= "position: relative; left: 19%; top: 7%;"> <b> <em> Our Headquarters: </em> </b> </p>
 
-            <!-- BROKEN!!!!!!!!!!!!!!!!!!! -->
-            <!-- <div class="line">&nbsp;</div> Vertical line -->
+            <!-- Vertical line (Had to format 'Stay Connected' after including) -->
+            <div class="line">
+                <!--  Horizontal rule tag to create vertical line -->
+                <hr width= "1" size= "630">
+            </div>
 
             <!-- User input box -->
             <div class= "forum"> 
-                <h3 style= "font-size: 30; text-decoration: underline; text-align: left"> <b> Stay Connected: </b> </h3>  <!-- Change to animation!!!!!!!!!!-->
+                <h3 > <b> Stay Connected: </b> </h3> 
                 <form action= "action_page.php">
     
-                    <label for= "fullname" > Full Name </label>
+                    <label for= "fullname" > Name </label>
                     <input type= "text" id= "fullname" name= "fullname" placeholder= "{ John Smith }">
     
                     <label for= "email"> Email </label>
                     <input type= "text" id= "email" name= "email" placeholder="{ VersaTecb@SEG2900.com }">
     
-                    <label for= "help"> Let us know! </label>
-                    <textarea id= "help" name= "help" placeholder = "{ Have a question? A comment? Need help? We want to hear from you! }"
+                    <label for= "help"> Questions/Comments </label>
+                    <textarea id= "help" name= "help" placeholder = "Type Away!"
                     style = "height:200px"></textarea>
     
                     <input type = "submit" value = "Submit">
