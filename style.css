@@ -145,6 +145,12 @@ border: 2px dotted grey;
   top: 1850px;
   left: 70%;
   transform: translate(-50%, -50%);}
+    .price1{ position: absolute;
+  top: 1200px;
+  left: 70%;color: red;text-decoration: underline;}
+      .price2{ position: absolute;
+  top: 1950px;
+  left: 70%;color: red;text-decoration: underline;}
 
 
 
