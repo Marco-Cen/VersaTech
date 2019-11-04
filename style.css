@@ -126,8 +126,25 @@ border: 2px dotted grey;
     to {opacity: 1}
   }
   
-
-
+.prod1img {max-width: 40%;  position: relative;
+  left: 60px; box-shadow: 0 0 8px 8px white;}
+.prod1txt{ position: absolute;
+  top: 900px;
+  left: 70%;
+  transform: translate(-50%, -50%);}
+  .prod1txt2{ position: absolute;
+  top: 1100px;
+  left: 70%;
+  transform: translate(-50%, -50%);}
+ .title{font-size: 70px;font-style: italic;text-decoration: underline;}
+ .prod1txt3{ position: absolute;
+  top: 1600px;
+  left: 70%;
+  transform: translate(-50%, -50%);}
+   .prod1txt4{ position: absolute;
+  top: 1850px;
+  left: 70%;
+  transform: translate(-50%, -50%);}
 
 
 
