@@ -252,3 +252,22 @@ h2{
     text-align: center;
     top: 10%;
 }
+
+/* Profile Pictures of Group */
+.profilePics{
+    position: relative;
+    top: 30%;
+    left: 45%;
+}
+
+/* Names of Group, under profile pictures */
+h6{
+    position: relative;
+    margin: -10em 0;
+    display: inline;
+    text-align: center;
+    font-size: 1em;
+    left: -9%;
+    top: 50%;  /* Doesnt work */
+    color: burlywood;
+}
