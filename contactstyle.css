@@ -253,11 +253,16 @@ h2{
     top: 10%;
 }
 
+/* Problems:
+- Formatting of pictures/text
+- Created weird white space at bottom of webpage
+*/
+
 /* Profile Pictures of Group */
 .profilePics{
     position: relative;
-    top: 30%;
-    left: 45%;
+    top: 35%;
+    left: 10%;
 }
 
 /* Names of Group, under profile pictures */
@@ -270,4 +275,22 @@ h6{
     left: -9%;
     top: 50%;  /* Doesnt work */
     color: burlywood;
+}
+
+.Marco{
+    position: relative;
+    top: -33%;
+    left: 73%;
+}
+
+.Akram{
+    position: relative;
+    top: 15%;
+    left: 18%;
+}
+
+.group{
+    position: relative;
+    top: 20%;
+    left: 28%;
 }
