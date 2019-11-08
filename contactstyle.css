@@ -261,36 +261,49 @@ h2{
 /* Profile Pictures of Group */
 .profilePics{
     position: relative;
-    top: 35%;
-    left: 10%;
+    border-radius: 50%; /* Suppose to make pics rounded but no work */
+    top: 8%;
+    left: 0%;
 }
 
 /* Names of Group, under profile pictures */
 h6{
-    position: relative;
-    margin: -10em 0;
+    position: absolute;
+    /* margin: -10em 0;
     display: inline;
-    text-align: center;
+    text-align: center;  Doesnt work */
     font-size: 1em;
-    left: -9%;
-    top: 50%;  /* Doesnt work */
-    color: burlywood;
+    left: 0%;
+    top: 85%;  /* Doesnt work */
+    color: cornsilk;
 }
 
 .Marco{
-    position: relative;
-    top: -33%;
-    left: 73%;
+    position: absolute;
+    top: -5%;
+    left: 72%;
 }
 
 .Akram{
-    position: relative;
-    top: 15%;
+    position: relative; /*  "top: 10%;" wont work if "position: relative;" */
+    top: -5%;
     left: 18%;
 }
 
-.group{
-    position: relative;
-    top: 20%;
-    left: 28%;
+.Neal{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+
+.Hamas{
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+
+.Ahmed{
+    position: absolute;
+    top: 90%;
+    left: 61%;
 }
