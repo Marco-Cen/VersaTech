@@ -4,6 +4,8 @@ To do:
 - Formatting issue (resizing according to window/mobile size)
 - Make social media links work
 - Change buttons for company information (Ex: phone # & email)
+- Fix (line) bc using px [Cant use % top for some reason]
+- VersaTech subtitle on second screen doesnt show?
 
 */
 
@@ -192,8 +194,9 @@ h3{
 .line {
     position: relative;
     color: black;
-    left: 4.5%;
-    top: -39%;
+    left: 54.8%;
+    top: -300px; /* 'top: -50%;" Doesnt work??? */
+    display: inline-block; /* So only takes up amount of space visible */
 } 
 
 /* User input Box (Stay Connected) */
