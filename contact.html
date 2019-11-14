@@ -47,9 +47,9 @@
             <div class= "contactInfo">
                 <!-- Set picture postion: abosulte and relative on parent to move pics around -->
                 <img src= "assets/mail.png" alt= "Mail Icon" style= "position: absolute; width: 80; top: 36%; left: 9.5%;">
-                <a href= "mailto: VersaTech@SEG2900.com" style= "position: absolute; top: 47%; left: 19%;"> { Email us: VersaTech@SEG2900.com } </a>        
+                <!-- <a href= "mailto: VersaTech@SEG2900.com" style= "position: absolute; top: 47%; left: 19%;"> { Email us: VersaTech@SEG2900.com } </a>   Old link version  -->
                 <img src= "assets/phone.jpg" alt= "Phone Icon" style= "position: absolute; width: 45; top: 78%; left: 10.5%;">
-                <a href= "tel:6479373188" style= "position: absolute; top: 84%; left: 19.1%;"> { Call us: 647-937-3188 } </a>
+                <!-- <a href= "tel:6479373188" style= "position: absolute; top: 84%; left: 19.1%;"> { Call us: 647-937-3188 } </a> -->
                 <img src= "assets/location.png" alt= "Location Icon" style= "position: absolute; width: 70; top: 110%; left: 9.9%;">
                 <div class="mapouter">
                     <div class="gmap_canvas">
@@ -61,7 +61,17 @@
                     <style>.mapouter{height:280px;width:580px;}.gmap_canvas {overflow:hidden;background:none!important;height:280px;width:580px;}</style>
                 </div>
             </div>
-            <p style= "position: relative; left: 19%; top: 7%;"> <b> <em> Our Headquarters: </em> </b> </p>
+
+            
+            <!-- Extra animation on links -->
+            <!-- On emai, phone link -->
+            <div class="animateLink">
+                <a href= "mailto: VersaTech@SEG2900.com" class="btn btn-white btn-animation-1">[ Email us: ]     VersaTech@SEG2900.com</a>   
+                <a href= "tel:6479373188" class="btn btn-white btn-animation-1" style= "position: absolute; top: 110%; left: 10.5%;">[ Call us: ]     (647) - 937 - 3188</a>     
+            </div>
+
+
+            <p style= "position: relative; left: 15%; top: -10%;"> <b> <em> Our Headquarters: </em> </b> </p>
 
             <!-- Vertical line (Had to format 'Stay Connected' after including) -->
             <div class="line">
@@ -98,6 +108,7 @@
                 <img src= "assets/youtube.png" alt= "YouTube Icon" style= "position: absolute; width: 5.6%; left: 24%; top: 2%;">
             </div>
 
+
         </div>
 
         <!-- Parallax scrolling (3rd Pic) -->
@@ -108,8 +119,6 @@
                 <h2 style= "left: 64%;"> Team </h2>
                 <img src= "assets/VersaTech.png" alt="VersaTech" style= "width: 500;">
             </div>
-
-            <!-- Problem in here listed on .css, fix! -->
 
             <!-- Profile Pictures of Group -->
             <div class = "profilePics">
