@@ -2,9 +2,8 @@
 - 
 To do:
 - Formatting issue (resizing according to window/mobile size)
-- Make social media links work
-- Change buttons for company information (Ex: phone # & email)
-- Fix (line) bc using px [Cant use % top for some reason]
+- Make social media links work? (non-existant)
+- Fix (line) bc using em [Cant use % or px top for some reason]
 - VersaTech subtitle on second screen doesnt show?
 
 */
@@ -394,6 +393,5 @@ h6{
     }
   }
 
-  
+
   /*  */
-  
