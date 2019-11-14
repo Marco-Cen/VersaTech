@@ -1,4 +1,4 @@
-// JS for animated text on rotation //
+// JS for animated text on rotation (Have a:... ) //
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -55,3 +55,8 @@ var TxtRotate = function(el, toRotate, period) {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
   };
+
+
+
+
+  // ///
