@@ -9,10 +9,13 @@ Colours
 At VersaTech, we plan to set the theme with our colour variation, presenting a very calm and soothing vibe to our customers.
 The following are the list of colours that will represent VersaTech on its website:
 
+- black
+- white
+- Light tones such as:
 - #AB7AFF
 - #9CC8FF
 - #D1FBFF
-- #FFDCA8
+- Variation of tan (Ex: burlywood or #FFDCA8)
 
 ===========
 Iconography
@@ -25,6 +28,7 @@ Typography
 The fonts representing VersaTech will be from Google Fonts, namely:
 - Sans-serif
 - Helvetica
+- Mostly Raleway
 
 =====
 Links
