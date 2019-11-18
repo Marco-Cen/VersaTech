@@ -1,6 +1,5 @@
 VersaTech
 =========
-
 Team Name: VersaTech
 
 Team Member Names: 
