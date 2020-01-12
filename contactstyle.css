@@ -216,7 +216,7 @@ h3{
     width: 38%;
     text-align: left;
     left: 60%;
-    top: -154%;
+    top: -135%;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -231,7 +231,7 @@ input[type=text], textarea {
 
 .socialMedia{
     position: relative;
-    top: -150%;
+    top: -130%;
     left: 65%;
 
 }
