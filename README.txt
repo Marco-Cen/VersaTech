@@ -3,11 +3,11 @@ VersaTech
 Team Name: VersaTech
 
 Team Member Names: 
-Marco Cen - Student Number 300129532
-Neal Anzengruber - Student Number 300132549
-Hamas Qureshi- Student Number 300102926
-Akram El-Gaouny - Student Number 300109692
-Ahmed Oueslati - Student Number 300082392
+Marco Cen (Contact Page, overall asthetic design)
+Neal Anzengruber (Product Page)
+Hamas Qureshi (Pitch Presentation)
+Akram El-Gaouny (Home/Landing Page)
+Ahmed Oueslati (Pricing Page)
 
 Product Name: VersaTech
 
